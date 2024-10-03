@@ -73,7 +73,7 @@ Below are screenshots demonstrating the different stages of the project setup an
 ![Available Snapshots](screenshots/ec2-available-snapshots.png)
 
 ### 5. Running the Script and Showing Execution Result
-![Execution Result](screenshots/lambda-script.png)
+![Execution Result](screenshots/script-execution-result.png)
 
 ### 6. Showing Deleted Snapshots on the EC2 Dashboard
 ![Deleted Snapshots](screenshots/deleted-snapshots-ec2.png)
