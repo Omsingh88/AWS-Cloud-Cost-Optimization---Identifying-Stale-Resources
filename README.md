@@ -57,19 +57,23 @@ The Lambda function performs the following operations:
 Below are screenshots demonstrating the different stages of the project setup and execution:
 
 ### 1. Creating the Lambda Function
-![Creating Lambda Function](screenshots/create-lambda-function.png)
+![Creating Lambda Function 1](screenshots/create-lambda-function1.png)
+![Creating Lambda Function 2](screenshots/create-lambda-function2.png)
 
 ### 2. Lambda Script
 ![Lambda Script](screenshots/lambda-script.png)
 
 ### 3. Adding Permissions to the IAM Role
-![Adding IAM Permissions](screenshots/add-iam-permissions.png)
+![Adding IAM Permissions 1](screenshots/add-iam-permissions1.png)
+![Adding IAM Permissions 2](screenshots/add-iam-permissions2.png)
+![Adding IAM Permissions 3](screenshots/add-iam-permissions3.png)
+![Adding IAM Permissions 4](screenshots/add-iam-permissions4.png)
 
 ### 4. Showing Available Snapshots on the EC2 Dashboard
 ![Available Snapshots](screenshots/ec2-available-snapshots.png)
 
 ### 5. Running the Script and Showing Execution Result
-![Execution Result](screenshots/script-execution-result.png)
+![Execution Result](screenshots/lambda-script.png)
 
 ### 6. Showing Deleted Snapshots on the EC2 Dashboard
 ![Deleted Snapshots](screenshots/deleted-snapshots-ec2.png)
