@@ -31,6 +31,12 @@ The Lambda function performs the following operations:
 4. **Delete Stale Snapshots**:
    If a snapshot meets the criteria of being stale, it deletes the snapshot using the `delete_snapshot` method.
 
+## Script Overview
+The main script for this project is `ebs_stale_snapshots.py`, which contains the logic for identifying and deleting stale EBS snapshots. The script performs the following functions:
+- Retrieves all EBS snapshots owned by the account.
+- Identifies active EC2 instances and checks for associated volumes.
+- Deletes snapshots that are no longer attached to any active instances.
+
 ## Benefits
 - **Reduced Costs**: Automatically removes unused snapshots to save on storage costs.
 - **Improved Efficiency**: Automates the cleanup process, reducing the time required for manual maintenance.
