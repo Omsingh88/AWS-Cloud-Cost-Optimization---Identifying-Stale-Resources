@@ -54,13 +54,25 @@ The Lambda function performs the following operations:
 4. Execute the function manually from the Lambda console to perform the snapshot cleanup.
 
 ## Screenshots
-Here are a few screenshots demonstrating the project setup and execution:
+Below are screenshots demonstrating the different stages of the project setup and execution:
 
-![Lambda Function Execution](screenshots/lambda-execution.png)
-*Lambda function executing to identify and delete stale EBS snapshots.*
+### 1. Creating the Lambda Function
+![Creating Lambda Function](screenshots/create-lambda-function.png)
 
-![EBS Snapshot Cleanup Results](screenshots/cleanup-results.png)
-*Results of the snapshot cleanup operation.*
+### 2. Lambda Script
+![Lambda Script](screenshots/lambda-script.png)
+
+### 3. Adding Permissions to the IAM Role
+![Adding IAM Permissions](screenshots/add-iam-permissions.png)
+
+### 4. Showing Available Snapshots on the EC2 Dashboard
+![Available Snapshots](screenshots/ec2-available-snapshots.png)
+
+### 5. Running the Script and Showing Execution Result
+![Execution Result](screenshots/script-execution-result.png)
+
+### 6. Showing Deleted Snapshots on the EC2 Dashboard
+![Deleted Snapshots](screenshots/deleted-snapshots-ec2.png)
 
 ## Future Enhancements
 - **CloudWatch Integration**: Set up a CloudWatch Event to trigger the function periodically for automated cleanups.
