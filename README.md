@@ -81,7 +81,6 @@ Below are screenshots demonstrating the different stages of the project setup an
 ## Future Enhancements
 - **CloudWatch Integration**: Set up a CloudWatch Event to trigger the function periodically for automated cleanups.
 - **Enhanced Filtering**: Add filters to identify snapshots based on tags, creation date, or size.
-- **Multi-Region Support**: Extend the function to run across multiple AWS regions.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
