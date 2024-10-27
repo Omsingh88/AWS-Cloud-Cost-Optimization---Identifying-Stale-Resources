@@ -67,7 +67,7 @@ Below are screenshots demonstrating the different stages of the project setup an
 ![Creating Lambda Function 2](screenshots/create-lambda-function2.png)
 
 ### 2. Lambda Script
-[ebs_stale_snapshots.py](ebs_stale_snapshots.py)
+Get script file here:- [ebs_stale_snapshots.py](ebs_stale_snapshots.py)
 ![Lambda Script](screenshots/lambda-script.png)
 
 
