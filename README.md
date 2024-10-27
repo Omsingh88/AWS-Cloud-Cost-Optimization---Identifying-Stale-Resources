@@ -68,6 +68,7 @@ Below are screenshots demonstrating the different stages of the project setup an
 
 ### 2. Lambda Script
 Get script file here:- [ebs_stale_snapshots.py](ebs_stale_snapshots.py)
+
 ![Lambda Script](screenshots/lambda-script.png)
 
 
