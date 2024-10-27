@@ -59,7 +59,7 @@ The main script for this project is `ebs_stale_snapshots.py`, which contains the
 3. Assign the IAM role created in step 1 to this Lambda function.
 4. Execute the function manually from the Lambda console to perform the snapshot cleanup.
 
-## Screenshots
+## Screenshots of Output Images (Which i have done while practicing this project)
 Below are screenshots demonstrating the different stages of the project setup and execution:
 
 ### 1. Creating the Lambda Function
@@ -67,7 +67,9 @@ Below are screenshots demonstrating the different stages of the project setup an
 ![Creating Lambda Function 2](screenshots/create-lambda-function2.png)
 
 ### 2. Lambda Script
+[ebs_stale_snapshots.py](ebs_stale_snapshots.py)
 ![Lambda Script](screenshots/lambda-script.png)
+
 
 ### 3. Adding Permissions to the IAM Role
 ![Adding IAM Permissions 1](screenshots/add-iam-permissions1.png)
