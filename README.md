@@ -18,6 +18,7 @@ There are many similar problems like this. For instance, we might attach an Elas
 2. Navigate to the EC2 Console.<br>
 3. In the Instances section, select 'Instances,' and then click on 'Launch Instance'.<br>
 
+
 ![Architecture](screenshot/1.png)
 
 4. Next, navigate to the 'Elastic Block Store' section and select 'Volumes'.<br>
