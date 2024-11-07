@@ -44,4 +44,4 @@ There are many similar problems like this. For instance, we might attach an Elas
 6.After creating the function, scroll down, and you will see something like the image below..<br>
 
 ![Lambda](screenshot/5.png)
-.
+
