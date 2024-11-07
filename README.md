@@ -17,3 +17,30 @@ There are many similar problems like this. For instance, we might attach an Elas
 1. Go into your AWS Console.<br>
 2. Navigate to the EC2 Console.<br>
 3. In the Instances section, select 'Instances,' and then click on 'Launch Instance'.<br>
+
+![Architecture](screenshot/1.png)
+
+4. Next, navigate to the 'Elastic Block Store' section and select 'Volumes'.<br>
+
+![Volume](screenshot/2.png)
+
+5. You will notice that a default volume has already been created for us.<br>
+6. Next, click on 'Snapshots,' and then click the 'Create Snapshot' button. It will prompt you with a page that looks like this.<br>
+
+![Volume](screenshot/3.png)
+
+7. In Volume ID section choose your default Volume ID created when we create instance.<br>
+8. Next, click 'Next,' provide a name for your Snapshot, and then scroll down and click 'Create Snapshot'.<br>
+
+### Step 2 :
+1. After creating a Snapshot, navigate to the Lambda Console..<br>
+2. You will see some options in the user interface, such as 'Create Function'.<br>
+3. Click on 'Functions'.<br>
+
+![Volume](screenshot/4.png)
+
+4. Select 'Author from Scratch,' then enter the Function name, and choose the latest Python version.<br>
+5. Scroll down and click 'Create Function'.<br>
+6.After creating the function, scroll down, and you will see something like the image below..<br>
+
+![Lambda](screenshot/5.png)
