@@ -72,16 +72,16 @@ There are many similar problems like this. For instance, we might attach an Elas
 
 16. Click on 'Add Permissions' and then select 'Attach Policy.'
 
-[2](screenshot/11.png) 
+![2](screenshot/11.png) 
 
 17. Choose the correct policy you have created earlier.
 
-[2](screenshot/12.png) 
+![2](screenshot/12.png) 
 
 18. Then scroll down and click 'Add Permissions'.
 19. After that, you can go to the Lambda function page and run the code; it will display some outputs as shown below. As our lambda function has not found any stale resources (snapshots), which are not in use or aren’t connected to any active EC2 instances.
 
-[2](screenshot/13.png) 
+![2](screenshot/13.png) 
 
 ### Step 3 :
 1. You can terminate the EC2 instance to test our Lambda function.
@@ -101,33 +101,36 @@ We can use CloudWatch to automatically trigger the Lambda function every hour, d
 ### Steps :
 1. Go to CloudWatch Console.
 
-[2](screenshot/15.png) 
-[2](screenshot/16.png) 
-[2](screenshot/17.png) 
-[2](screenshot/18.png) 
+![2](screenshot/15.png) 
+
+![2](screenshot/16.png) 
+
+![2](screenshot/17.png) 
+
+![2](screenshot/18.png) 
 
 2. Next, on the following page, configure the schedule pattern as follows:
 
-[2](screenshot/19.png) 
+![2](screenshot/19.png) 
 
 3. Scroll Down and then Click Next.
    
-[2](screenshot/20.png) 
+![2](screenshot/20.png) 
 
-[2](screenshot/21.png) 
+![2](screenshot/21.png) 
 
 4. Specify the target as Lambda and select the correct lambda function we have created . Scroll Down and then Click Next.
 5. On the next page, choose 'None' for the 'Action after Schedule' option.
 
-[2](screenshot/22.png) 
+![2](screenshot/22.png) 
 
-[2](screenshot/23.png) 
+![2](screenshot/23.png) 
 
-[2](screenshot/24.png) 
+![2](screenshot/24.png) 
 
 6. You have successfully created the scheduler, which will trigger the Lambda function every hour.
 
-[2](screenshot/25.png)
+![2](screenshot/25.png)
 
 8. However, please note that this setup will incur some costs since the function is triggered continuously every hour. Alternatively, we can configure it to run on specific days and times as needed.
 
