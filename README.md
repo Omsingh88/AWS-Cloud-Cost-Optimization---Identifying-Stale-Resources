@@ -89,7 +89,7 @@ There are many similar problems like this. For instance, we might attach an Elas
 3. Return to the Lambda console to test the code; go to the Lambda Function page.
 4. Under the Code section, click 'Test code', it will display an output like this.
 
-[2](screenshot/14.png) 
+![2](screenshot/14.png) 
 
 5. As expected, our Lambda function deleted the snapshot because that is no longer associated with any active EC2 instance or is linked to a volume that does not exist.
 
